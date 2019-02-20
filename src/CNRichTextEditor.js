@@ -552,7 +552,10 @@ class CNRichTextEditor extends Component {
                     flexGrow: 1,
                     alignContent: 'flex-start',
                     justifyContent: 'flex-start'
-                }} onLayout={this.onLayout} style={[style]}>
+                }}
+                onScroll={this.props.onScroll}
+                onLayout={this.onLayout} 
+                style={[style]}>
   
                     {
                         _.map(value, (item,index) => {
