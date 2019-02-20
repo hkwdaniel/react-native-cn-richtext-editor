@@ -1249,7 +1249,8 @@ class CNTextInput extends Component {
                 paddingTop: 5,
                 paddingBottom: 5,
                 paddingLeft: 2,
-                paddingRight: 2
+                paddingRight: 2,
+                textAlignVertical: 'top'
             }]} 
             scrollEnabled={false}
             returnKeyType={returnKeyType ? returnKeyType : "next"}
